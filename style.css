@@ -1,0 +1,68 @@
+/* Resetear estilos por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Encabezado */
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff6f61;
+}
+
+h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #5b9aa0;
+}
+
+/* Formulario */
+select,
+input[type="number"],
+button {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #fff;
+    color: #555;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: url('dropdown-arrow.png') no-repeat right center;
+    background-size: 20px;
+}
+
+button {
+    background-color: #ff6f61;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e5564d;
+}
+
+/* Resultados */
+#Resultado, #ppersonas {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #5b9aa0;
+}
+
+/* Estilos adicionales según necesites */
